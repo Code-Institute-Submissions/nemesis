@@ -16,7 +16,7 @@
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
-			<div class="navbar-header">
+			<div class="nav navbar-header">
 				<a class="navbar-left" href="/"><img src="/images/nemesis-logo-inverse.png"></a>
 					<button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed" title="Toggle navigation">
 						<span class="icon-bar"></span>
@@ -34,8 +34,10 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="col-xs-12 col-sm-6 col-md-4 col-lg-6">
-		<!-- <img src="/images/banner.jpg"> -->
+	<div class="container-fluid">
+			<div class="row">
+				<img src="/images/banner.jpg" class="img-responsive" width="100%">
+			</div>
 	</div>
 	<div ng-view>
 		
