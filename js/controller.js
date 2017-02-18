@@ -1,4 +1,4 @@
 angular.module('RouteControllers', [])
 	.controller('HomeController', function($scope) {
-		$scope.title = "";
+		$scope.title = "About Us";
 	});

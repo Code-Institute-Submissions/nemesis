@@ -11,9 +11,17 @@
 		body {
 			padding-top: 70px;
 		}
+		footer {
+			padding-top: 5px;
+			background-color: #eee;
+			text-align: left;
+			height: auto;
+		}
+
 	</style>
 </head>
 <body>
+<div class="container">
 	<nav class="navbar navbar-inverse navbar-fixed-top">
 		<div class="container">
 			<div class="nav navbar-header">
@@ -42,6 +50,33 @@
 	<div ng-view>
 		
 	</div>
+	<footer class="col-12">
+		<div class="row">
+			<div class="col-sm-3">
+				<ul>
+					<p>Home</p>
+					<p>Tattoo</p>
+					<p>Piercing</p>
+					<p>Tattoo Removal</p>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul>
+					<p>FAQ</p>
+					<p>Contact</p>
+					<p>Sign up for newsletter</p>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<ul>
+					<p>Facebook</p>
+					<p>Instagram</p>
+					<p>Twitter</p>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</div>
 <script src='js/app.js'></script>
 <script src='js/controller.js'></script>
 <script src='js/service.js'></script>
