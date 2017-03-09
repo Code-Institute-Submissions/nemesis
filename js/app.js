@@ -8,8 +8,15 @@ app.config(function($locationProvider, $routeProvider){
 		controller: 'HomeController'
 	})
 	.when('/tattoo', {
-		templateUrl: 'templates/tattoo',
+		templateUrl: 'templates/tattoo.html',
 		controller: 'TattooController'
+	})
+	.when('/piercing',{
+		templateUrl: 'templates/piercing.html',
+		controller: 'PiercingController'
+	})
+	.when('/removal',{
+		templateUrl: 'templates/removal.html',
+		controller: 'RemovalController'
 	});
-
 });
