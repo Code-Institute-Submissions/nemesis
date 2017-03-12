@@ -18,5 +18,13 @@ app.config(function($locationProvider, $routeProvider){
 	.when('/removal',{
 		templateUrl: 'templates/removal.html',
 		controller: 'RemovalController'
+	})
+	.when('/contact',{
+		templateUrl: 'templates/contact.html',
+		controller: 'ContactController'
+	})
+	.when('/faq',{
+		templateUrl: 'templates/faq.html',
+		controller: 'FaqController'
 	});
 });

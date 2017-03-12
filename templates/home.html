@@ -2,9 +2,21 @@
 	.extra-padding{
 		padding: 30px 50px;
 	}
+	@media (min-width: 768px) {
+		.text-margin{
+		margin-right: 200px;
+		margin-left: 200px;
+		}
+	}
+	.services{
+    border: 10px solid transparent;
+	}
+	.services:hover{
+		border-color: #f1f1f1;
+	}
 </style>
 <div class="container-fluid extra-padding">
-	<div class="row text-center">
+	<div class="row text-center text-margin">
 		<div class="col-sm-12">
 			<h1>{{title}}</h1>
 			<p>Nemesis Tattoo & Body Piercing Studio has opened for business in 2009 in Camden Town, London. The resident tattoo artists, guest artists and body piercers with years of experience offer the highest quality body art to our customers in a hygienic and 100% safe environment. We specialise in realistic, old school, new school, traditional tattoo styles, but we are always open for new ideas and challenges. We also offer laser tattoo removal and have an extensive range of body jewellery.</p>
@@ -15,17 +27,17 @@
 	<div class="row">
 		<div class="col-sm-4">
 			<a href="/tattoo">
-				<img src="/images/tattoo_1.jpg" class="img-responsive">
+				<img src="/images/tattoo_1.jpg" class="img-responsive services">
 			</a>
 		</div>
 		<div class="col-sm-4">
 			<a href="/piercing">
-				<img src="/images/Zoli_piercing_1.jpg" class="img-responsive">
+				<img src="/images/Zoli_piercing_1.jpg" class="img-responsive services">
 			</a>
 		</div>
 		<div class="col-sm-4">
 			<a href="/removal">
-				<img src="/images/NemesisTattooRemoval-01.jpg" class="img-responsive">
+				<img src="/images/NemesisTattooRemoval-01.jpg" class="img-responsive services">
 			</a>
 		</div>
 	</div>
