@@ -8,11 +8,9 @@
 		margin-left: 200px;
 		}
 	}
-	.services{
-    border: 10px solid transparent;
-	}
 	.services:hover{
-		border-color: #f1f1f1;
+		opacity: 0.8;
+		box-shadow: 0 1px 8px black;
 	}
 </style>
 <div class="container-fluid extra-padding">
@@ -25,12 +23,13 @@
 </div>
 <div class="container-fluid extra-padding">
 	<div class="row">
-		<div class="col-sm-4">
+		<div class="col-sm-4" ng-repeat="img in images">
+
 			<a href="/tattoo">
-				<img src="/images/tattoo_1.jpg" class="img-responsive services">
+				<img ng-src="{{img}}" class="img-responsive services">
 			</a>
 		</div>
-		<div class="col-sm-4">
+		<!--<div class="col-sm-4">
 			<a href="/piercing">
 				<img src="/images/Zoli_piercing_1.jpg" class="img-responsive services">
 			</a>
@@ -39,6 +38,6 @@
 			<a href="/removal">
 				<img src="/images/NemesisTattooRemoval-01.jpg" class="img-responsive services">
 			</a>
-		</div>
+		</div> -->
 	</div>
 </div>

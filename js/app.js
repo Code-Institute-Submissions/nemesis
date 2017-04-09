@@ -1,4 +1,4 @@
-var app = angular.module('NemesisApp', ['ngRoute', 'RouteControllers']);
+var app = angular.module('NemesisApp', ['ngRoute', 'RouteControllers', 'NemesisFooter']);
 
 app.config(function($locationProvider, $routeProvider){
 	$locationProvider.html5Mode(true); //Enable href routing without hashes
