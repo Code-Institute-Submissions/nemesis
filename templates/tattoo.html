@@ -4,15 +4,9 @@
 	}
 	@media (min-width: 768px) {
 		.text-margin{
-		margin-right: 200px;
-		margin-left: 200px;
+		margin-right: 300px;
+		margin-left: 300px;
 		}
-	}
-	.services{
-    border: 10px solid transparent;
-	}
-	.services:hover{
-		border-color: #f1f1f1;
 	}
 </style>
 <div>
@@ -21,14 +15,44 @@
 	</div>
 	<div class="container-fluid text-center text-margin">
 		<h2>Attila</h2>
+		<img src="images/Attila_portfolio/Attila.jpg" class="img-responsive img-circle extra-padding" alt="Attila" style="display: inline">
 		<p>Attila took up tattooing in the mid 90's in his native Hungary, opening his first shop soon after. He moved to London in 2004 and has been a regular on the Camden scene ever since. He, along with Zoli and Thomas opened Nemesis in 2009. He specialises in realism and has done multiple guest spots and prestigious tattoo conventions worldwide.</p>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3" ng-repeat="img in images01">
+				<div class="thumbnail">
+					<img ng-src="{{img}}">
+				</div>	
+			</div>
+		</div>
 	</div>
 	<div class="container-fluid text-center text-margin">
 		<h2>Tomi</h2>
+		<img src="images/Tomi_portfolio/Tomi.jpg" class="img-responsive img-circle extra-padding" alt="Tomi" style="display: inline;">
 		<p>Tomi has started his tattoo career 13 years ago in Hungary and has moved to London seven years ago to continue his art. He specialises in old school, new school and Japanese designs.</p>
+	</div>
+	<div class="container-fluid">		
+		<div class="row">
+			<div class="col-sm-3" ng-repeat="img in images02">
+				<div class="thumbnail">
+					<img ng-src="{{img}}">
+				</div>	
+			</div>
+		</div>
 	</div>
 	<div class="container-fluid text-center text-margin">
 		<h2>Cesar</h2>
+		<img src="images/Cesar_portfolio/Cesar.jpg" class="img-responsive img-circle extra-padding" alt="Cesar" style="display: inline;">
 		<p>Cesar started tattooing at the age of 19 in his native Portugal. From the early days he specialised in neo-traditional and traditional styles. He's worked all around the world at various prestigious tattoo conventions and guest spots.He moved to London a year ago and quickly established himself as one of the best neo-traditional artists in the city.</p>
+	</div>
+	<div class="container-fluid">		
+		<div class="row">
+			<div class="col-sm-3" ng-repeat="img in images03">
+				<div class="thumbnail">
+					<img ng-src="{{img}}">
+				</div>	
+			</div>
+		</div>
 	</div>
 </div>
