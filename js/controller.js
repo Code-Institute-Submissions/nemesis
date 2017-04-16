@@ -40,4 +40,15 @@ angular.module('RouteControllers', [])
 	})
 	.controller('FaqController', function($scope) {
 
+	})
+	.controller('NemesisFooter', function($scope) {
+		$scope.registrationUser = {};
+
+		$scope.submitForm = function() {
+		if ($scope.newsletterForm.$valid) {
+			$scope.registrationUser.email = $scope.user.email;
+		}
+		console.log($scope.registrationUser.email);
+		alert("You've just signed up for the latest Nemesis news!")
+		}
 	});

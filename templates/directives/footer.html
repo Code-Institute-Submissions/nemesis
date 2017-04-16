@@ -26,7 +26,7 @@
 				<form name="newsletterForm" data-ng-submit="submitForm()" novalidate>
 					<div class="form-group">
 						<label name="signup">Sign Up for Newsletter</label>
-						<input type="email" autocomplete="on" name="email" class="form-control" ng-model="user.email" placeholder="Email" required>
+						<input type="email" autocomplete="on" name="email" class="form-control" data-ng-model="user.email" placeholder="Email" required>
 						<p data-ng-show="newsletterForm.email.$pristine" class="help-block">Just pop in your email address</p>
 					</div>
 					<button type="submit" class="btn btn-primary" data-ng-disabled="newsletterForm.$invalid">SUBMIT</button>
