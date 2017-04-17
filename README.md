@@ -21,7 +21,7 @@ This is a functional website for a tattoo salon called Nemesis Tattoo and Pierci
 ### Some the tech used includes:
 
 - [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing, we also use it to make calls to the REST API and build custom directives
+    - We use **AngularJS** to handle page routing and build custom directives
 - [Bootstrap](http://getbootstrap.com/)
     - We use **Bootstrap** to give our project a simple, responsive layout
 - [npm](https://www.npmjs.com/)
