@@ -6,14 +6,6 @@
 
 This is a functional website for a tattoo salon called Nemesis Tattoo and Piercing. It is to provide information on services and to showcase the artists' portfolios. The webpage also serves as a point of contact for customers.
 
-### What does it do?
-
-...
-
-### How does it work?
-
-...
-
 ## Features
  
 ## Tech Used
@@ -21,17 +13,15 @@ This is a functional website for a tattoo salon called Nemesis Tattoo and Pierci
 ### Some the tech used includes:
 
 - [AngularJS](https://angularjs.org/)
-    - We use **AngularJS** to handle page routing and build custom directives
+    - Used **AngularJS** to handle page routing and build directives
 - [Bootstrap](http://getbootstrap.com/)
-    - We use **Bootstrap** to give our project a simple, responsive layout
+    - Used **Bootstrap** to give the website a simple, responsive layout
 - [npm](https://www.npmjs.com/)
-    - We use **npm** to help manage some of the dependencies in our application
+    - Used **npm** to help manage some of the dependencies
 - [bower](https://bower.io/)
-    - **Bower** is used to manage the installation of our libraries and frameworks
- 
-## Contributing
+    - **Bower** is used to manage the installation of libraries and frameworks
 
-### Getting the code up and running
+## Getting the code up and running
 1. Firstly you will need to clone this repository by running the ```git clone <project's Github URL>``` command
 2. After you've that you'll need to make sure that you have **npm** and **bower** installed
   1. You can get **npm** by installing Node from [here](https://nodejs.org/en/)
@@ -46,4 +36,3 @@ This is a functional website for a tattoo salon called Nemesis Tattoo and Pierci
 4. After those dependencies have been installed you'll need to make sure that you have **http-server** installed. You can install this by running the following: ```npm install -g http-server # this also may require sudo on Mac/Linux```
 5. Once **http-server** is installed run ```http-server```
 6. The project will now run on [localhost](http://127.0.0.1:8080)
-7. Make changes to the code and if you think it belongs in here then just submit a pull request
