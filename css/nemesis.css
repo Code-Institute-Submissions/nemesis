@@ -1,0 +1,8 @@
+.myHover{
+		color: #000000;
+	}
+	.myHover:hover{
+		color: #000000;
+		font-weight: bold;	
+		text-shadow: 3px 2px #ffffff;
+	}
